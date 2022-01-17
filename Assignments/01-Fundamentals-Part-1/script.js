@@ -1,8 +1,8 @@
 // Values and Variables
 
 // 1
-let countryName ="Nepal";
-let continentName ="Asia";
+const countryName ="Nepal";
+const continentName ="Asia";
 let population = 29140000;
 
 // 2
@@ -27,3 +27,8 @@ console.log(language);
 language = "Nepali";
 
 //2
+//Done
+
+//3
+//countryName="India";
+
