@@ -99,23 +99,45 @@
 
 ////////////////////////////////////////
 
-const firstName = 'Pramin';
-const job = 'teacher';
-const birthyear = 2002;
-const year = 2022;
+// const firstName = 'Pramin';
+// const job = 'teacher';
+// const birthyear = 2002;
+// const year = 2022;
 
-const pramin = " I'm " +firstName + " ,a " + (year - birthyear) + " years old" + job + "!";
-console.log(pramin);
+// const pramin = " I'm " +firstName + " ,a " + (year - birthyear) + " years old" + job + "!";
+// console.log(pramin);
 
-const praminNew = `I'm ${firstName},a ${year - birthyear} year old ${job} !`;
-console.log(praminNew);
-
-
-console.log(`Just a regular string...`);
+// const praminNew = `I'm ${firstName},a ${year - birthyear} year old ${job} !`;
+// console.log(praminNew);
 
 
-console.log('String with \n\ multiple \n\ lines');
+// console.log(`Just a regular string...`);
 
-console.log(`String with
-multiple
-lines`);
+
+// console.log('String with \n\ multiple \n\ lines');
+
+// console.log(`String with
+// multiple
+// lines`);
+
+
+const age = 10;
+// const isOldEnough = age >= 18;
+
+
+if(age >= 18){
+    console.log('Sarah can start driving liscence.  ');
+}else{
+    const leftYears = 18 - age;
+    console.log(`Sarah can't start driving liscence. Come back after ${leftYears} years  `);
+
+}
+
+let century;
+const birthyear = 1991;
+if(birthyear <= 2000){
+     century = 20;
+} else {
+     century = 21;
+}
+console.log(century);
