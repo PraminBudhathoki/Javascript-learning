@@ -35,3 +35,23 @@ language = "Nepali";
 //Basic operator
 // 1
 let halfPopulation = population /2;
+console.log(halfPopulation);
+
+//2
+halfPopulation++;
+console.log(halfPopulation);
+
+// 3
+const finlandPopulation = 6000000;
+let isPopGreater=halfPopulation > finlandPopulation;
+console.log(isPopGreater);
+
+//4
+let averagePopulation =33000000;
+isPopGreater =halfPopulation >averagePopulation;
+console.log(isPopGreater);
+
+
+// 5
+let description = countryName + " is in "+ continentName + " and its " + population +" people speak " + language;
+console.log(description); 
