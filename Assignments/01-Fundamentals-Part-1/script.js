@@ -32,3 +32,6 @@ language = "Nepali";
 //3
 //countryName="India";
 
+//Basic operator
+// 1
+let halfPopulation = population /2;
