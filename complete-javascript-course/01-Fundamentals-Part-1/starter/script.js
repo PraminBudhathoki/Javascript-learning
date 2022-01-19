@@ -96,3 +96,26 @@
 
 // console.log(now -2002 > now-2003);
  
+
+////////////////////////////////////////
+
+const firstName = 'Pramin';
+const job = 'teacher';
+const birthyear = 2002;
+const year = 2022;
+
+const pramin = " I'm " +firstName + " ,a " + (year - birthyear) + " years old" + job + "!";
+console.log(pramin);
+
+const praminNew = `I'm ${firstName},a ${year - birthyear} year old ${job} !`;
+console.log(praminNew);
+
+
+console.log(`Just a regular string...`);
+
+
+console.log('String with \n\ multiple \n\ lines');
+
+console.log(`String with
+multiple
+lines`);
