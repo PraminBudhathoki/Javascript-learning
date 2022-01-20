@@ -3,7 +3,7 @@
 // 1
 const countryName ="Nepal";
 const continentName ="Asia";
-let population = 29140000;
+let population = 29140000;//13000000;//130000000//
 
 // 2
 console.log(countryName);
@@ -55,3 +55,48 @@ console.log(isPopGreater);
 // 5
 let description = countryName + " is in "+ continentName + " and its " + population +" people speak " + language;
 console.log(description); 
+
+//String and template literal
+//1
+description = `${countryName}  is in ${continentName}  and its ${population} people speak ${language}`;
+console.log(description); 
+
+//Taking Decisions:if / else statements
+//1
+if(population > 33000000){
+    console.log(`${countryName}'s population is above average`);
+}else{
+    console.log(`${countryName}'s population is ${33000000-population} million below average`)
+}
+
+//Type coersion and conversion
+//2
+console.log('9' - '5');
+console.log('19' - '13' + '17');
+console.log('19' - '13' + 17);
+console.log('123' < 57);
+console.log(5 + 6 + '4' + 9 - 4 - 2);
+
+
+//Equality Operators: == vs. ===
+//1
+// const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+
+//2 3 4 5 6 7 8
+// if(numNeighbours === 1){
+    // console.log("Only 1 border!");
+// }else if(numNeighbours > 1){
+    // console.log('More than 1 border');
+// }else{
+    // console.log('No border');
+// }
+
+//logical operator
+//1 2 3 4 5
+if (language === 'english' && population < 50000000 && !isIsland)
+{
+console.log(`You should live in ${countryName} :)`);
+} else {
+console.log(`${countryName} does not meet your criteria :(`);
+}
+
