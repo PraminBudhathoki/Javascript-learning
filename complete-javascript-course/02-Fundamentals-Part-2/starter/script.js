@@ -148,3 +148,31 @@
     //   console.log(ages);
     
   const friends = ["michael",'Ram','Hari'];
+  //Add element
+  const newlength =   friends.push('Jay');
+  console.log(friends, newlength);
+  
+  
+  const newlength1 =friends.unshift('Daya');
+  console.log(friends, newlength1);
+  
+  //Remove element
+  const removedElement =friends.pop(); //last
+  console.log(friends, removedElement);
+  
+  
+  const removedElement1 = friends.shift(); //first
+  console.log(friends, removedElement1);
+  
+
+console.log(friends.indexOf('michael'));
+console.log(friends.indexOf('michelle'));
+
+friends.push(23);
+console.log(friends.includes('michael'));
+console.log(friends.includes('michelle'));
+console.log(friends.includes('23'));
+
+if(friends.includes('Ram')){
+  console.log('You have a friend called Ram');
+}
