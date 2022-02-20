@@ -15,7 +15,7 @@
 //functions
 
 // function logger(){
-    // console.log('My name is Pramin');
+// console.log('My name is Pramin');
 // }
 
 // calling or running or invoking functions
@@ -29,14 +29,13 @@
 // }
 
 // const appleJuice = fruitprocessor(5,0);
-// console.log(appleJuice); 
+// console.log(appleJuice);
 // console.log(fruitprocessor(5,0));
 
 // const appleOrangeJuice = fruitprocessor(2, 4);
 // console.log(appleOrangeJuice);
 
 // const num = Number('23');
-
 
 ////////////////////////
 // function declaration vs expression
@@ -55,7 +54,6 @@
 
 // console.log(age1, age2);
 
-
 // //Arrow function
 // const calcAge3 = birthyear => 2037 - birthyear;
 // const age3 = calcAge3(1991);
@@ -64,7 +62,7 @@
 // const yearsUntilRetirement = (birthYear, firstname)  => {
 //     const age = 2037 -birthYear;
 //     const retirement = 60 - age;
-//     // return retirement;    
+//     // return retirement;
 //     return `${firstname} retires in ${retirement} years`;
 // }
 
@@ -79,7 +77,6 @@
 //     const applePieces = cutFruitPieces(apples);
 //     const orangesPieces = cutFruitPieces(oranges);
 
-
 //     const juice = `Juice with ${applePieces} pieces of apples and ${orangesPieces} pieces of oranges.`;
 //     return juice;
 // }
@@ -90,11 +87,11 @@
 // const calcAge = function (birthYeah) {
 //     return 2037 - birthYeah;
 //   }
-  
+
 //   const yearsUntilRetirement = function (birthYeah, firstName) {
 //     const age = calcAge(birthYeah);
 //     const retirement = 65 - age;
-  
+
 //     if (retirement > 0) {
 //       console.log(`${firstName} retires in ${retirement} years`);
 //       return retirement;
@@ -103,12 +100,12 @@
 //       return -1;
 //     }
 //   }
-  
+
 //   console.log(yearsUntilRetirement(1991, 'Jonas'));
 //   console.log(yearsUntilRetirement(1950, 'Mike'));
 
-  //////////////////
-  //Array
+//////////////////
+//Array
 //   const friend1 = "michael";
 //   const friend2 = "Ram";
 //   const friend3 = "Hari";
@@ -135,35 +132,32 @@
 
 // // Exercise
 // const calcAge = function (birthYeah) {
-    //     return 2037 - birthYeah;
-    //   }
-    //   const years = [1990, 1967, 2002, 2010, 2018];
-    
-    //   const age1 = calcAge(years[0]);
-    //   const age2 = calcAge(years[1]);
-    //   const age3 = calcAge(years[years.length - 1]);
-    //   console.log(age1, age2, age3);
-    
-    //   const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
-    //   console.log(ages);
-    
+//     return 2037 - birthYeah;
+//   }
+//   const years = [1990, 1967, 2002, 2010, 2018];
+
+//   const age1 = calcAge(years[0]);
+//   const age2 = calcAge(years[1]);
+//   const age3 = calcAge(years[years.length - 1]);
+//   console.log(age1, age2, age3);
+
+//   const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
+//   console.log(ages);
+
 //   const friends = ["michael",'Ram','Hari'];
 //   //Add element
 //   const newlength =   friends.push('Jay');
 //   console.log(friends, newlength);
-  
-  
+
 //   const newlength1 =friends.unshift('Daya');
 //   console.log(friends, newlength1);
-  
+
 //   //Remove element
 //   const removedElement =friends.pop(); //last
 //   console.log(friends, removedElement);
-  
-  
+
 //   const removedElement1 = friends.shift(); //first
 //   console.log(friends, removedElement1);
-  
 
 // console.log(friends.indexOf('michael'));
 // console.log(friends.indexOf('michelle'));
@@ -178,17 +172,20 @@
 // }
 //////////////////////////////////
 //Objects
-const praminArray = ['Pramin', 
-  'Budhathoki', 
-  2037-2002, 
-  'student', 
-  ["michael",'Ram','Hari']
+const praminArray = [
+  'Pramin',
+  'Budhathoki',
+  2037 - 2002,
+  'student',
+  ['michael', 'Ram', 'Hari'],
 ];
 
 const pramin = {
-  firstname : 'Pramin',
-  lastName : 'Budhathoki',
-  age : 2037 - 2002,
-  job : 'student',
-  friends : ["michael",'Ram','Hari']
+  firstname: 'Pramin',
+  lastName: 'Budhathoki',
+  age: 2037 - 2002,
+  job: 'student',
+  friends: ['michael', 'Ram', 'Hari'],
 };
+
+
